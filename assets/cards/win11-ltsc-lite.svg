@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 200" width="580" height="200" role="img" aria-label="win11-ltsc-lite">
+  <title>win11-ltsc-lite</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F1A2C"/><stop offset="1" stop-color="#09111D"/></linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#34E0C4" stop-opacity=".45"/><stop offset="1" stop-color="#34E0C4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34E0C4" stop-opacity="0"/><stop offset=".5" stop-color="#34E0C4" stop-opacity=".9"/><stop offset="1" stop-color="#34E0C4" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="580" height="200" rx="16"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .halo { transform-origin: 512px 52px; animation: halo 4s ease-in-out 1.40s infinite; }
+      @keyframes halo { 0%, 100% { transform: scale(.85); opacity: .6; } 50% { transform: scale(1.15); opacity: 1; } }
+      .shine { animation: shine 5s cubic-bezier(.6,0,.4,1) 2.00s infinite; }
+      @keyframes shine { 0% { transform: translateX(-220px); } 60%, 100% { transform: translateX(620px); } }
+      .ico { transform-origin: 512px 52px; animation: bob 3s ease-in-out 0.80s infinite; }
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="580" height="200" fill="url(#bg)"/>
+    <rect x=".5" y=".5" width="579" height="199" rx="15.5" fill="none" stroke="#34E0C4" stroke-opacity=".22"/>
+    <rect class="shine" x="0" y="0" width="200" height="2" fill="url(#shine)"/>
+    <circle class="halo" cx="512" cy="52" r="58" fill="url(#halo)"/>
+    <g class="ico"><g transform="translate(512 52)"><path d="M-22 -14 L-3 -17 L-3 -2 L-22 -2 Z M1 -17.5 L23 -21 L23 -2 L1 -2 Z M-22 2 L-3 2 L-3 17 L-22 14 Z M1 2 L23 2 L23 21 L1 17.5 Z" fill="#34E0C4"/></g></g>
+    <text x="32" y="56" font-size="28" font-weight="700" fill="#FFFFFF">win11-ltsc-lite</text>
+    <text x="32" y="80" font-size="13" font-weight="600" fill="#34E0C4" letter-spacing=".6">NTLITE PRESET</text>
+    <text x="32" y="112" font-size="16" fill="#C9CFDA">NTLite ile hafifletilmiş Windows 11 LTSC,</text>
+    <text x="32" y="134" font-size="16" fill="#C9CFDA">boşta 1.8 GB RAM.</text>
+    <rect x="32" y="150" width="63" height="28" rx="14" fill="#34E0C4" fill-opacity=".12" stroke="#34E0C4" stroke-opacity=".45"/><text x="64" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#34E0C4">NTLite</text>
+    <rect x="103.19999999999999" y="150" width="96" height="28" rx="14" fill="#34E0C4" fill-opacity=".12" stroke="#34E0C4" stroke-opacity=".45"/><text x="151" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#34E0C4">Windows 11</text>
+    <rect x="207.2" y="150" width="88" height="28" rx="14" fill="#34E0C4" fill-opacity=".12" stroke="#34E0C4" stroke-opacity=".45"/><text x="251" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#34E0C4">LTSC 2024</text>
+    <text x="548" y="172" text-anchor="end" font-size="20" font-weight="700" fill="#34E0C4" opacity=".85">&#8594;</text>
+  </g>
+</svg>

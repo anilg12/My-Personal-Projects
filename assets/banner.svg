@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Anil Gul - Projelerim">
+  <title>Projelerim</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0D13"/><stop offset=".55" stop-color="#11141D"/><stop offset="1" stop-color="#090A0F"/></linearGradient>
+    <radialGradient id="g1" cx=".8" cy=".5" r=".45"><stop offset="0" stop-color="#7C8BFF" stop-opacity=".22"/><stop offset="1" stop-color="#7C8BFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx=".1" cy=".1" r=".5"><stop offset="0" stop-color="#F8834C" stop-opacity=".14"/><stop offset="1" stop-color="#F8834C" stop-opacity="0"/></radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9C2FF"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#1A1E2A" stroke-width="1"/></pattern>
+    <clipPath id="c"><rect width="1200" height="360" rx="18"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .o1 { transform-origin: 960px 180px; animation: spin 26s linear infinite; }
+      .o2 { transform-origin: 960px 180px; animation: spin 16s linear infinite reverse; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .core { transform-origin: 960px 180px; animation: core 3.2s ease-in-out infinite; }
+      @keyframes core { 0%, 100% { transform: scale(.92); } 50% { transform: scale(1.06); } }
+      .w1, .w2, .w3 { opacity: 0; animation: word 9s infinite; }
+      .w2 { animation-delay: 3s; } .w3 { animation-delay: 6s; }
+      @keyframes word { 0% { opacity: 0; transform: translateY(8px); } 4%, 30% { opacity: 1; transform: translateY(0); } 34%, 100% { opacity: 0; transform: translateY(-6px); } }
+      .ul { stroke-dasharray: 300; stroke-dashoffset: 300; animation: ul 9s ease-out infinite; }
+      @keyframes ul { 0% { stroke-dashoffset: 300; } 12%, 90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -300; } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)" opacity=".6"/>
+    <rect width="1200" height="360" fill="url(#g1)"/>
+    <rect width="1200" height="360" fill="url(#g2)"/>
+
+    <text x="72" y="96" font-size="15" font-weight="600" fill="#8A93A8" letter-spacing="3">ANIL GÜL</text>
+    <text x="70" y="168" font-size="68" font-weight="800" fill="url(#title)" letter-spacing="-1">Projelerim</text>
+    <path class="ul" d="M74 188 C150 196 240 184 330 190" fill="none" stroke="#F8834C" stroke-width="4" stroke-linecap="round"/>
+
+    <g font-size="24" font-weight="600">
+      <text class="w1" x="72" y="240" fill="#F8834C">masaüstü uygulamaları</text>
+      <text class="w2" x="72" y="240" fill="#7C8BFF">sistem araçları</text>
+      <text class="w3" x="72" y="240" fill="#2BE8CE">simülasyonlar ve notlar</text>
+    </g>
+    <text x="72" y="290" font-size="16" fill="#8A93A8">Windows · macOS · Java · C# · Swift · Python · Svelte</text>
+
+    <g>
+      <circle cx="960" cy="180" r="118" fill="none" stroke="#2A3042" stroke-dasharray="3 7"/>
+      <circle cx="960" cy="180" r="64" fill="none" stroke="#252A3A"/>
+      <g class="o1">
+        <circle cx="1078.0" cy="180.0" r="9" fill="#F8834C"/>
+        <circle cx="1019.0" cy="282.2" r="9" fill="#7C8BFF"/>
+        <circle cx="901.0" cy="282.2" r="9" fill="#F2B24B"/>
+        <circle cx="842.0" cy="180.0" r="9" fill="#2BE8CE"/>
+        <circle cx="901.0" cy="77.8" r="9" fill="#34E0C4"/>
+        <circle cx="1019.0" cy="77.8" r="9" fill="#2F8CFF"/>
+      </g>
+      <g class="o2">
+        <circle cx="1016.2" cy="210.7" r="4" fill="#F8834C" opacity=".7"/>
+        <circle cx="961.5" cy="244.0" r="4" fill="#7C8BFF" opacity=".7"/>
+        <circle cx="905.3" cy="213.3" r="4" fill="#F2B24B" opacity=".7"/>
+        <circle cx="903.8" cy="149.3" r="4" fill="#2BE8CE" opacity=".7"/>
+        <circle cx="958.5" cy="116.0" r="4" fill="#34E0C4" opacity=".7"/>
+        <circle cx="1014.7" cy="146.7" r="4" fill="#2F8CFF" opacity=".7"/>
+      </g>
+      <g class="core">
+        <circle cx="960" cy="180" r="30" fill="#161A26" stroke="#3A4260"/>
+        <text x="960" y="188" text-anchor="middle" font-size="22" font-weight="800" fill="#FFFFFF">AG</text>
+      </g>
+    </g>
+  </g>
+</svg>

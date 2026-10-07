@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 200" width="580" height="200" role="img" aria-label="SPEKTRA">
+  <title>SPEKTRA</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141C26"/><stop offset="1" stop-color="#0B1017"/></linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#F2B24B" stop-opacity=".45"/><stop offset="1" stop-color="#F2B24B" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2B24B" stop-opacity="0"/><stop offset=".5" stop-color="#F2B24B" stop-opacity=".9"/><stop offset="1" stop-color="#F2B24B" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="580" height="200" rx="16"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .halo { transform-origin: 512px 52px; animation: halo 4s ease-in-out 0.70s infinite; }
+      @keyframes halo { 0%, 100% { transform: scale(.85); opacity: .6; } 50% { transform: scale(1.15); opacity: 1; } }
+      .shine { animation: shine 5s cubic-bezier(.6,0,.4,1) 1.00s infinite; }
+      @keyframes shine { 0% { transform: translateX(-220px); } 60%, 100% { transform: translateX(620px); } }
+      .ico { transform-origin: 512px 52px; animation: bob 3s ease-in-out 0.40s infinite; }
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="580" height="200" fill="url(#bg)"/>
+    <rect x=".5" y=".5" width="579" height="199" rx="15.5" fill="none" stroke="#F2B24B" stroke-opacity=".22"/>
+    <rect class="shine" x="0" y="0" width="200" height="2" fill="url(#shine)"/>
+    <circle class="halo" cx="512" cy="52" r="58" fill="url(#halo)"/>
+    <g class="ico"><g transform="translate(512 52)"><path d="M-24 6 L-16 6 L-12 -2 L-8 14 L-4 -18 L0 22 L4 -10 L8 8 L12 2 L16 6 L24 6" fill="none" stroke="#F2B24B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+    <text x="32" y="56" font-size="28" font-weight="700" fill="#FFFFFF">SPEKTRA</text>
+    <text x="32" y="80" font-size="13" font-weight="600" fill="#F2B24B" letter-spacing=".6">WINDOWS</text>
+    <text x="32" y="112" font-size="16" fill="#C9CFDA">Elektronik harp için RF spektrum ve</text>
+    <text x="32" y="134" font-size="16" fill="#C9CFDA">karıştırma (jamming) simülatörü.</text>
+    <rect x="32" y="150" width="71" height="28" rx="14" fill="#F2B24B" fill-opacity=".12" stroke="#F2B24B" stroke-opacity=".45"/><text x="68" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#F2B24B">Java 21</text>
+    <rect x="111.39999999999999" y="150" width="63" height="28" rx="14" fill="#F2B24B" fill-opacity=".12" stroke="#F2B24B" stroke-opacity=".45"/><text x="143" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#F2B24B">JavaFX</text>
+    <rect x="182.59999999999997" y="150" width="63" height="28" rx="14" fill="#F2B24B" fill-opacity=".12" stroke="#F2B24B" stroke-opacity=".45"/><text x="214" y="169" text-anchor="middle" font-size="13" font-weight="600" fill="#F2B24B">Canvas</text>
+    <text x="548" y="172" text-anchor="end" font-size="20" font-weight="700" fill="#F2B24B" opacity=".85">&#8594;</text>
+  </g>
+</svg>
