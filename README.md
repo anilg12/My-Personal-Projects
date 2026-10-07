@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://anilg12.github.io/"><img src="https://img.shields.io/badge/Portfolyo-anilg12.github.io-7C8BFF?style=flat-square&labelColor=11141D" alt="Portfolyo"></a>
-  <a href="https://www.linkedin.com/in/anilg12"><img src="https://img.shields.io/badge/LinkedIn-anilg12-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=11141D" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/anilg12/"><img src="https://img.shields.io/badge/LinkedIn-anilg12-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=11141D" alt="LinkedIn"></a>
   <a href="https://github.com/anilg12"><img src="https://img.shields.io/badge/GitHub-anilg12-E6EDF3?style=flat-square&logo=github&logoColor=white&labelColor=11141D" alt="GitHub"></a>
 </p>
 
